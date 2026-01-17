@@ -73,18 +73,8 @@ A production-style backend built using **FastAPI**, focused on scalability and p
 - WebSockets for real-time communication
 - Clean separation of routes, services, and models
 
-🔗 Repo: https://github.com/pseudorex/hackmates-backend
+🔗 Repo: https://github.com/pseudorex/Hackmates.git
 
----
-
-### 🔹 Data & Automation Projects
-Python-based automation and utility scripts:
-- Excel / CSV processing
-- NumPy-based data operations
-- Image processing basics with OpenCV
-- Scripted workflows for repetitive tasks
-
-🔗 Repo: https://github.com/pseudorex/python-automation
 
 ---
 
