@@ -10,6 +10,9 @@ Building high-performance APIs with intelligent caching, rate limiting, and real
   <a href="https://www.linkedin.com/in/asmitgpt" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-asmitgpt-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
   </a>
+  <a href="mailto:asmit.important@gmail.com">
+    <img src="https://img.shields.io/badge/Email-asmit.important-EA4335?style=flat&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 ---
@@ -27,16 +30,14 @@ I'm an engineering student passionate about solving real-world performance probl
 
 ## 🛠️ Tech Stack
 
-> **Note:** The badge images below are hosted externally via shields.io and will display properly on GitHub. If you want to add project screenshots or architecture diagrams, upload them to your repo (e.g., in an `assets/` folder) and reference them like: `![Description](./assets/image.png)`
-
 ### 🐍 Backend & APIs
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/REST_API-4A90E2?style=flat"/>
   <img src="https://img.shields.io/badge/WebSockets-4353FF?style=flat"/>
-  <img src="https://img.shields.io/badge/SQLAlchemy-000000?style=flat"/>
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat"/>
+  <img src="https://img.shields.io/badge/SQLAlchemy-000000?style=flat&logo=sqlalchemy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white"/>
 </p>
 
 ### 🗄️ Databases & Caching
@@ -60,7 +61,21 @@ I'm an engineering student passionate about solving real-world performance probl
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"/>
   <img src="https://img.shields.io/badge/Locust-000000?style=flat"/>
+  <img src="https://img.shields.io/badge/K6-7D64FF?style=flat&logo=k6&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
+</p>
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pseudorex&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6C37&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pseudorex&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6C37&text_color=FFFFFF&icon_color=FF6C37&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pseudorex&theme=radical&hide_border=true&background=0D1117&ring=FF6C37&fire=FF6C37&currStreakLabel=FF6C37" alt="GitHub Streak" />
 </p>
 
 ---
@@ -178,10 +193,20 @@ A high-performance FastAPI backend for competitive quiz platforms with WebSocket
 
 ## 📫 Let's Connect
 
-📧 **Email:** asmit.important@gmail.com  
-🔗 **LinkedIn:** [linkedin.com/in/asmitgpt](https://www.linkedin.com/in/asmitgpt)  
-💻 **GitHub:** [github.com/pseudorex](https://github.com/pseudorex)  
-🐍 **LeetCode:** [leetcode.com/u/Asmitrex](https://leetcode.com/u/Asmitrex/)
+<p align="left">
+  <a href="mailto:asmit.important@gmail.com">
+    <img src="https://img.shields.io/badge/Email-asmit.important-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/asmitgpt" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-asmitgpt-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/pseudorex" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-pseudorex-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/u/Asmitrex/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Asmitrex-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+</p>
 
 ---
 
@@ -194,4 +219,10 @@ A high-performance FastAPI backend for competitive quiz platforms with WebSocket
 
 ---
 
-⭐ **Let's build something that handles traffic intelligently, not just more traffic.**
+<p align="center">
+  <i>⭐ Let's build something that handles traffic intelligently, not just more traffic.</i>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=pseudorex&label=Profile%20Views&color=FF6C37&style=flat" alt="Profile Views" />
+</p>
