@@ -1,8 +1,8 @@
-# 👋 Hey, I'm <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF6C37&vCenter=true&width=435&lines=Asmit+Gupta!+%F0%9F%9A%80;Backend+Developer+%F0%9F%90%8D;System+Design+Enthusiast+%E2%9A%99%EF%B8%8F;Performance+Optimizer+%E2%9A%A1" alt="Typing SVG" />
-
+# 👋 Hey, I'm Asmit Gupta! (@pseudorex)
+ 
 **Backend Developer** | Python • FastAPI • System Design  
 Building high-performance APIs with intelligent caching, rate limiting, and real-world scalability 🚀
-
+ 
 <p align="left">
   <a href="https://leetcode.com/u/Asmitrex/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-Asmitrex-FFA116?style=flat&logo=leetcode&logoColor=black"/>
@@ -74,13 +74,6 @@ I'm an engineering student passionate about solving real-world performance probl
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pseudorex&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6C37&text_color=FFFFFF&icon_color=FF6C37&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pseudorex&theme=radical&hide_border=true&background=0D1117&ring=FF6C37&fire=FF6C37&currStreakLabel=FF6C37" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=pseudorex&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
-</p>
 
 ---
 
