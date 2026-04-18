@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Asmit Gupta! (@pseudorex)
+# 👋 Hey, I'm <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF6C37&vCenter=true&width=435&lines=Asmit+Gupta!+%F0%9F%9A%80;Backend+Developer+%F0%9F%90%8D;System+Design+Enthusiast+%E2%9A%99%EF%B8%8F;Performance+Optimizer+%E2%9A%A1" alt="Typing SVG" />
 
 **Backend Developer** | Python • FastAPI • System Design  
 Building high-performance APIs with intelligent caching, rate limiting, and real-world scalability 🚀
@@ -76,6 +76,10 @@ I'm an engineering student passionate about solving real-world performance probl
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pseudorex&theme=radical&hide_border=true&background=0D1117&ring=FF6C37&fire=FF6C37&currStreakLabel=FF6C37" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=pseudorex&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -216,6 +220,14 @@ A high-performance FastAPI backend for competitive quiz platforms with WebSocket
 - 🧪 Building more adaptive middleware for API protection
 - 📚 Deepening knowledge in system design and scalability
 - 🚀 Open to backend development opportunities and collaborations
+
+---
+
+## 🎯 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pseudorex&bg_color=0d1117&color=ff6c37&line=ff6c37&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" />
+</p>
 
 ---
 
