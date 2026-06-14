@@ -45,6 +45,7 @@ I'm an engineering student passionate about solving real-world performance probl
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white"/>
 </p>
 
 ### 📱 Frontend / Mobile
@@ -81,6 +82,48 @@ I'm an engineering student passionate about solving real-world performance probl
 ---
 
 ## 🔥 Featured Projects
+
+### 🎼 Webhook Orchestra — Distributed Webhook Delivery Engine
+
+A production-grade, distributed webhook delivery system built for scale, fault tolerance, and zero event loss — backed by FastAPI, Celery, RabbitMQ, and PostgreSQL.
+
+**🎯 The Problem It Solves:**
+- Guaranteed delivery even when subscriber endpoints are down, rate-limiting, or flaking
+- Cascading failures silently taking down entire delivery pipelines
+- No visibility into what failed, why, and what was retried
+- Duplicate events and race conditions under high concurrency
+
+**⚙️ Technical Highlights:**
+
+✅ **Zero Event Loss** — All events persisted to PostgreSQL before any delivery attempt  
+🔁 **6-Type Failure Classification** — PERMANENT, TRANSIENT, RATE_LIMITED, TIMEOUT, DNS_ERROR, CONNECTION_REFUSED — each with its own backoff strategy  
+🔌 **Circuit Breaker** — 3-state machine (CLOSED → OPEN → HALF_OPEN) with 0–100 health scoring; auto-recovers without intervention  
+📬 **Dead Letter Queue** — All exhausted retries captured with full failure context; manual replay via API  
+🏢 **Multi-Tenant Isolation** — Every event and delivery is tenant-scoped with HMAC-SHA256 payload signing  
+🚦 **Adaptive Queue Routing** — 3-tier queue system (high/default/low priority); auto-demotes traffic when backlog exceeds 2000 tasks  
+🔒 **Race-Condition Safe** — `SELECT FOR UPDATE` on circuit breaker counters ensures exact threshold enforcement under 32-thread concurrency  
+📊 **Full Observability** — Prometheus + Grafana dashboards + Jaeger distributed traces across every hop  
+
+**📈 Load Test Results (Locust — 10+ minute sustained run):**
+
+| Metric | Result |
+|--------|--------|
+| Total Requests | 19,940 |
+| Failure Rate | **0.02%** |
+| Sustained Throughput | 29.8 req/sec |
+| Median Response Time | 1,300ms |
+| p95 Response Time | 3,200ms |
+| DLQ Backlog (post-test) | 39 — all failures captured, nothing lost |
+| Healthy Endpoint Health Score | 88.5 / 100 |
+| Failing Endpoint Health Score | 0 / 100 (circuit opened correctly) |
+
+**Test suite:** 107 tests across circuit breaker, failure classifier, retry policy, signature service, and webhook engine — runs in ~1.3s with zero external dependencies.
+
+**Tech Stack:** FastAPI • Celery • RabbitMQ • PostgreSQL • SQLAlchemy • Prometheus • Grafana • Jaeger • Docker
+
+🔗 **[View Project →](https://github.com/pseudorex/webhook-orchestra)**
+
+---
 
 ### 🛡️ QueryShield — Adaptive Rate Limiting & Intelligent Caching Middleware
 
@@ -161,15 +204,6 @@ A high-performance FastAPI backend for competitive quiz platforms with WebSocket
 | Team Registration | 100 | 30.5s | 100% | 363ms | 499ms | 272 req/s |
 | Admin Operations | 60 | 32.4s | 100% | 4.77s | 7.83s | 12 req/s |
 | Full System Test | 150 | 46.8s | 100% | 6.47s | 33.73s | 5 req/s |
-
-**Key Achievements:**
-- 🎯 4,156 teams created successfully in 30 seconds
-- 🔒 Zero race conditions in question assignment under concurrent load
-- 📡 Real-time WebSocket updates with no message loss
-- 🧠 Pessimistic locking with `SELECT FOR UPDATE` for atomic operations
-- ✅ Database constraints ensuring referential integrity
-
-**Why This Matters:** Most quiz backends fail under concurrent load due to race conditions in question assignment. This system uses pessimistic locking and transactional integrity to guarantee zero duplicates even when 100+ teams request questions simultaneously.
 
 **Tech Stack:** FastAPI • PostgreSQL • WebSockets • SQLAlchemy • K6 • Uvicorn
 
