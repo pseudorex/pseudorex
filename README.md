@@ -72,14 +72,7 @@ I'm an engineering student passionate about solving real-world performance probl
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pseudorex&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF6C37&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pseudorex&show_icons=true&title_color=FF6C37&icon_color=FF6C37&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pseudorex&theme=radical&hide_border=true&background=0D1117&ring=FF6C37&fire=FF6C37&currStreakLabel=FF6C37" alt="GitHub Streak" />
-</p>
-
----
 
 ## 🔥 Featured Projects
 
