@@ -5,7 +5,7 @@ Building high-performance APIs with intelligent caching, rate limiting, and real
  
 <p align="left">
   <a href="https://leetcode.com/u/Asmit_Gupta/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Asmitrex-FFA116?style=flat&logo=leetcode&logoColor=black"/>
+    <img src="https://img.shields.io/badge/LeetCode-Asmit_Gupta-FFA116?style=flat&logo=leetcode&logoColor=black"/>
   </a>
   <a href="https://www.linkedin.com/in/asmitgpt" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-asmitgpt-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
